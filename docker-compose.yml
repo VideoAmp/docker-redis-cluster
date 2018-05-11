@@ -1,7 +1,7 @@
 version: '2'
 services:
   redis-cluster:
-    network_mode: host
+    network_mode: bridge
     build:
       context: .
       args:
